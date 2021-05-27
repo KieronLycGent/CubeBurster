@@ -63,6 +63,7 @@
             this.inloggenToolStripMenuItem.Name = "inloggenToolStripMenuItem";
             this.inloggenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.inloggenToolStripMenuItem.Text = "Inloggen";
+            this.inloggenToolStripMenuItem.Click += new System.EventHandler(this.inloggenToolStripMenuItem_Click);
             // 
             // frmAanmeldenToolStripMenuItem
             // 
@@ -83,7 +84,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Home";
             this.Text = "Home";
             this.menuStrip1.ResumeLayout(false);

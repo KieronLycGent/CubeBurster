@@ -59,5 +59,10 @@ namespace CubeBurster
             frmRegistreren registratie = new frmRegistreren();
             registratie.Show();
         }
+
+        private void inloggenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
