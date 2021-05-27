@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Films.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Films.Designer.cs">
+      <DependentUpon>Films.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Beheer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Beheer.Designer.cs">
+      <DependentUpon>Beheer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lijsten.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lijsten.Designer.cs">
+      <DependentUpon>Lijsten.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inloggen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inloggen.Designer.cs">
+      <DependentUpon>Inloggen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Home.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,8 +84,17 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Beheer.resx">
+      <DependentUpon>Beheer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Films.resx">
+      <DependentUpon>Films.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lijsten.resx">
+      <DependentUpon>Lijsten.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registreer.resx">
       <DependentUpon>Registreer.cs</DependentUpon>
