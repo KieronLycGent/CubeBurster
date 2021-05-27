@@ -30,3 +30,14 @@ C:\Users\boere\Documents\School\cubeBurster\CubeBurster\obj\Debug\CubeBurster.cs
 C:\Users\boere\Documents\School\cubeBurster\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
 C:\Users\boere\Documents\School\cubeBurster\CubeBurster\obj\Debug\CubeBurster.exe
 C:\Users\boere\Documents\School\cubeBurster\CubeBurster\obj\Debug\CubeBurster.pdb
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\bin\Debug\CubeBurster.exe.config
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\bin\Debug\CubeBurster.exe
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\bin\Debug\CubeBurster.pdb
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.csprojAssemblyReference.cache
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.Home.resources
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.frmRegistreren.resources
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.Properties.Resources.resources
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.csproj.GenerateResource.cache
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.exe
+C:\Users\rll6ib\Documents\Rein\C#\CubeBurster\CubeBurster-master\Code\CubeBurster\obj\Debug\CubeBurster.pdb

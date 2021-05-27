@@ -37,7 +37,9 @@ namespace CubeBurster
             try
             {
                 verbinding.Open();
-                OleDbCommand opdracht = new OleDbCommand("INSERT INTO tblaccounts (accountID, accountType, naam, voornaam, geb_dat, email, paswoord, postID , adres, geactiveerd) VALUES(999,1,?,?,?,?,?,?,?,?,0)",verbinding);
+                MessageBox.Show("hier");
+                OleDbCommand opdracht = new OleDbCommand("INSERT INTO tblaccounts (naam, voornaam, geb_dat, email, paswoord, postID, adres) VALUES(?,?,?,?,?,?,?)", verbinding);
+                //OleDbCommand opdracht = new OleDbCommand("INSERT INTO tblaccounts (accountID, accountType, naam, voornaam, geb_dat, email, paswoord, postID , adres, geactiveerd) VALUES(999,1,?,?,?,?,?,?,?,?,0)",verbinding);
                 //----------------------------------------------------------------------------------------------------
                 // postcode moet veranderd worden in postID later
                 //----------------------------------------------------------------------------------------------------
