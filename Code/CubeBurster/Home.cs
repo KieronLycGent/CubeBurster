@@ -44,11 +44,6 @@ namespace CubeBurster
             */
         }
 
-        private void AccountAanmakenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void AccountToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -61,6 +56,26 @@ namespace CubeBurster
         }
 
         private void inloggenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Enkel zichtbaar voor admins!!!
+        }
+
+        private void werknemerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Enkel zichtbaar voor werknemers!!!
+        }
+
+        private void filmsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrerenToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }

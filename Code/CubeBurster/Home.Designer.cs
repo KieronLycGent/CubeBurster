@@ -31,8 +31,14 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.accountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inloggenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.frmAanmeldenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.afmeldenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registrerenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uitloggenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.beheerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.werknemerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.filmsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.boetesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.uitgeleendToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -40,7 +46,11 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.accountToolStripMenuItem});
+            this.accountToolStripMenuItem,
+            this.beheerToolStripMenuItem,
+            this.filmsToolStripMenuItem,
+            this.boetesToolStripMenuItem,
+            this.uitgeleendToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
@@ -51,8 +61,8 @@
             // 
             this.accountToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inloggenToolStripMenuItem,
-            this.frmAanmeldenToolStripMenuItem,
-            this.afmeldenToolStripMenuItem});
+            this.registrerenToolStripMenuItem,
+            this.uitloggenToolStripMenuItem});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
             this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
@@ -65,18 +75,60 @@
             this.inloggenToolStripMenuItem.Text = "Inloggen";
             this.inloggenToolStripMenuItem.Click += new System.EventHandler(this.inloggenToolStripMenuItem_Click);
             // 
-            // frmAanmeldenToolStripMenuItem
+            // registrerenToolStripMenuItem
             // 
-            this.frmAanmeldenToolStripMenuItem.Name = "frmAanmeldenToolStripMenuItem";
-            this.frmAanmeldenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.frmAanmeldenToolStripMenuItem.Text = "Registreren";
-            this.frmAanmeldenToolStripMenuItem.Click += new System.EventHandler(this.AanmeldenToolStripMenuItem_Click);
+            this.registrerenToolStripMenuItem.Name = "registrerenToolStripMenuItem";
+            this.registrerenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.registrerenToolStripMenuItem.Text = "Registreren";
+            this.registrerenToolStripMenuItem.Click += new System.EventHandler(this.registrerenToolStripMenuItem_Click);
             // 
-            // afmeldenToolStripMenuItem
+            // uitloggenToolStripMenuItem
             // 
-            this.afmeldenToolStripMenuItem.Name = "afmeldenToolStripMenuItem";
-            this.afmeldenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.afmeldenToolStripMenuItem.Text = "Uitloggen";
+            this.uitloggenToolStripMenuItem.Name = "uitloggenToolStripMenuItem";
+            this.uitloggenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.uitloggenToolStripMenuItem.Text = "Uitloggen";
+            // 
+            // beheerToolStripMenuItem
+            // 
+            this.beheerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.adminToolStripMenuItem,
+            this.werknemerToolStripMenuItem});
+            this.beheerToolStripMenuItem.Name = "beheerToolStripMenuItem";
+            this.beheerToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
+            this.beheerToolStripMenuItem.Text = "Beheer";
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.adminToolStripMenuItem.Text = "Admin";
+            this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
+            // 
+            // werknemerToolStripMenuItem
+            // 
+            this.werknemerToolStripMenuItem.Name = "werknemerToolStripMenuItem";
+            this.werknemerToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.werknemerToolStripMenuItem.Text = "Werknemer";
+            this.werknemerToolStripMenuItem.Click += new System.EventHandler(this.werknemerToolStripMenuItem_Click);
+            // 
+            // filmsToolStripMenuItem
+            // 
+            this.filmsToolStripMenuItem.Name = "filmsToolStripMenuItem";
+            this.filmsToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.filmsToolStripMenuItem.Text = "Films";
+            this.filmsToolStripMenuItem.Click += new System.EventHandler(this.filmsToolStripMenuItem_Click);
+            // 
+            // boetesToolStripMenuItem
+            // 
+            this.boetesToolStripMenuItem.Name = "boetesToolStripMenuItem";
+            this.boetesToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.boetesToolStripMenuItem.Text = "Boetes";
+            // 
+            // uitgeleendToolStripMenuItem
+            // 
+            this.uitgeleendToolStripMenuItem.Name = "uitgeleendToolStripMenuItem";
+            this.uitgeleendToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
+            this.uitgeleendToolStripMenuItem.Text = "Uitgeleend";
             // 
             // Home
             // 
@@ -99,8 +151,14 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem accountToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem inloggenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem frmAanmeldenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem afmeldenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registrerenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uitloggenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem beheerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem werknemerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem filmsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem boetesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem uitgeleendToolStripMenuItem;
     }
 }
 
