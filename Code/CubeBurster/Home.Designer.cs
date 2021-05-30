@@ -1,6 +1,6 @@
 ﻿namespace CubeBurster
 {
-    partial class Home
+    partial class frmHome
     {
         /// <summary>
         /// Required designer variable.
@@ -66,14 +66,13 @@
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
             this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
-            this.accountToolStripMenuItem.Click += new System.EventHandler(this.AccountToolStripMenuItem_Click);
             // 
             // inloggenToolStripMenuItem
             // 
             this.inloggenToolStripMenuItem.Name = "inloggenToolStripMenuItem";
             this.inloggenToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.inloggenToolStripMenuItem.Text = "Inloggen";
-            this.inloggenToolStripMenuItem.Click += new System.EventHandler(this.inloggenToolStripMenuItem_Click);
+            this.inloggenToolStripMenuItem.Click += new System.EventHandler(this.InloggenToolStripMenuItem_Click);
             // 
             // registrerenToolStripMenuItem
             // 
@@ -100,14 +99,14 @@
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.adminToolStripMenuItem.Text = "Admin";
             this.adminToolStripMenuItem.Click += new System.EventHandler(this.adminToolStripMenuItem_Click);
             // 
             // werknemerToolStripMenuItem
             // 
             this.werknemerToolStripMenuItem.Name = "werknemerToolStripMenuItem";
-            this.werknemerToolStripMenuItem.Size = new System.Drawing.Size(167, 26);
+            this.werknemerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.werknemerToolStripMenuItem.Text = "Werknemer";
             this.werknemerToolStripMenuItem.Click += new System.EventHandler(this.werknemerToolStripMenuItem_Click);
             // 
@@ -130,14 +129,14 @@
             this.uitgeleendToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
             this.uitgeleendToolStripMenuItem.Text = "Uitgeleend";
             // 
-            // Home
+            // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Home";
+            this.Name = "frmHome";
             this.Text = "Home";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

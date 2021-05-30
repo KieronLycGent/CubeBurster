@@ -37,7 +37,7 @@ namespace CubeBurster
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "frmBeheer";
-            this.Text = "Form1";
+            this.Text = "Beheer";
             this.ResumeLayout(false);
 
         }

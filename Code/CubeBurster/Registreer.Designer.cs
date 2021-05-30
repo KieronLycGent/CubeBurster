@@ -32,8 +32,8 @@
             this.lblVoornaam = new System.Windows.Forms.Label();
             this.lblGebdat = new System.Windows.Forms.Label();
             this.lblEmail = new System.Windows.Forms.Label();
-            this.lblPaswoord1 = new System.Windows.Forms.Label();
-            this.lblPaswoord2 = new System.Windows.Forms.Label();
+            this.lblPaswoord = new System.Windows.Forms.Label();
+            this.lblPaswoordherhaling = new System.Windows.Forms.Label();
             this.lblPostcode = new System.Windows.Forms.Label();
             this.lblGemeente = new System.Windows.Forms.Label();
             this.dtpGebdat = new System.Windows.Forms.DateTimePicker();
@@ -41,8 +41,8 @@
             this.txtNaam = new System.Windows.Forms.TextBox();
             this.txtVoornaam = new System.Windows.Forms.TextBox();
             this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtPaswoord1 = new System.Windows.Forms.TextBox();
-            this.txtPaswoord2 = new System.Windows.Forms.TextBox();
+            this.txtPaswoord = new System.Windows.Forms.TextBox();
+            this.txtPaswoordherhaling = new System.Windows.Forms.TextBox();
             this.txtPostcode = new System.Windows.Forms.TextBox();
             this.txtGemeente = new System.Windows.Forms.TextBox();
             this.txtAdres = new System.Windows.Forms.TextBox();
@@ -87,23 +87,23 @@
             this.lblEmail.TabIndex = 4;
             this.lblEmail.Text = "Email:";
             // 
-            // lblPaswoord1
+            // lblPaswoord
             // 
-            this.lblPaswoord1.AutoSize = true;
-            this.lblPaswoord1.Location = new System.Drawing.Point(13, 159);
-            this.lblPaswoord1.Name = "lblPaswoord1";
-            this.lblPaswoord1.Size = new System.Drawing.Size(74, 17);
-            this.lblPaswoord1.TabIndex = 5;
-            this.lblPaswoord1.Text = "Paswoord:";
+            this.lblPaswoord.AutoSize = true;
+            this.lblPaswoord.Location = new System.Drawing.Point(13, 159);
+            this.lblPaswoord.Name = "lblPaswoord";
+            this.lblPaswoord.Size = new System.Drawing.Size(74, 17);
+            this.lblPaswoord.TabIndex = 5;
+            this.lblPaswoord.Text = "Paswoord:";
             // 
-            // lblPaswoord2
+            // lblPaswoordherhaling
             // 
-            this.lblPaswoord2.AutoSize = true;
-            this.lblPaswoord2.Location = new System.Drawing.Point(13, 190);
-            this.lblPaswoord2.Name = "lblPaswoord2";
-            this.lblPaswoord2.Size = new System.Drawing.Size(137, 17);
-            this.lblPaswoord2.TabIndex = 6;
-            this.lblPaswoord2.Text = "Paswoord herhaling:";
+            this.lblPaswoordherhaling.AutoSize = true;
+            this.lblPaswoordherhaling.Location = new System.Drawing.Point(13, 190);
+            this.lblPaswoordherhaling.Name = "lblPaswoordherhaling";
+            this.lblPaswoordherhaling.Size = new System.Drawing.Size(137, 17);
+            this.lblPaswoordherhaling.TabIndex = 6;
+            this.lblPaswoordherhaling.Text = "Paswoord herhaling:";
             // 
             // lblPostcode
             // 
@@ -161,19 +161,19 @@
             this.txtEmail.Size = new System.Drawing.Size(200, 22);
             this.txtEmail.TabIndex = 14;
             // 
-            // txtPaswoord1
+            // txtPaswoord
             // 
-            this.txtPaswoord1.Location = new System.Drawing.Point(156, 156);
-            this.txtPaswoord1.Name = "txtPaswoord1";
-            this.txtPaswoord1.Size = new System.Drawing.Size(200, 22);
-            this.txtPaswoord1.TabIndex = 15;
+            this.txtPaswoord.Location = new System.Drawing.Point(156, 156);
+            this.txtPaswoord.Name = "txtPaswoord";
+            this.txtPaswoord.Size = new System.Drawing.Size(200, 22);
+            this.txtPaswoord.TabIndex = 15;
             // 
-            // txtPaswoord2
+            // txtPaswoordherhaling
             // 
-            this.txtPaswoord2.Location = new System.Drawing.Point(156, 187);
-            this.txtPaswoord2.Name = "txtPaswoord2";
-            this.txtPaswoord2.Size = new System.Drawing.Size(200, 22);
-            this.txtPaswoord2.TabIndex = 16;
+            this.txtPaswoordherhaling.Location = new System.Drawing.Point(156, 187);
+            this.txtPaswoordherhaling.Name = "txtPaswoordherhaling";
+            this.txtPaswoordherhaling.Size = new System.Drawing.Size(200, 22);
+            this.txtPaswoordherhaling.TabIndex = 16;
             // 
             // txtPostcode
             // 
@@ -237,8 +237,8 @@
             this.Controls.Add(this.txtAdres);
             this.Controls.Add(this.txtGemeente);
             this.Controls.Add(this.txtPostcode);
-            this.Controls.Add(this.txtPaswoord2);
-            this.Controls.Add(this.txtPaswoord1);
+            this.Controls.Add(this.txtPaswoordherhaling);
+            this.Controls.Add(this.txtPaswoord);
             this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.txtVoornaam);
             this.Controls.Add(this.txtNaam);
@@ -246,8 +246,8 @@
             this.Controls.Add(this.dtpGebdat);
             this.Controls.Add(this.lblGemeente);
             this.Controls.Add(this.lblPostcode);
-            this.Controls.Add(this.lblPaswoord2);
-            this.Controls.Add(this.lblPaswoord1);
+            this.Controls.Add(this.lblPaswoordherhaling);
+            this.Controls.Add(this.lblPaswoord);
             this.Controls.Add(this.lblEmail);
             this.Controls.Add(this.lblGebdat);
             this.Controls.Add(this.lblVoornaam);
@@ -265,8 +265,8 @@
         private System.Windows.Forms.Label lblVoornaam;
         private System.Windows.Forms.Label lblGebdat;
         private System.Windows.Forms.Label lblEmail;
-        private System.Windows.Forms.Label lblPaswoord1;
-        private System.Windows.Forms.Label lblPaswoord2;
+        private System.Windows.Forms.Label lblPaswoord;
+        private System.Windows.Forms.Label lblPaswoordherhaling;
         private System.Windows.Forms.Label lblPostcode;
         private System.Windows.Forms.Label lblGemeente;
         private System.Windows.Forms.DateTimePicker dtpGebdat;
@@ -274,8 +274,8 @@
         private System.Windows.Forms.TextBox txtNaam;
         private System.Windows.Forms.TextBox txtVoornaam;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox txtPaswoord1;
-        private System.Windows.Forms.TextBox txtPaswoord2;
+        private System.Windows.Forms.TextBox txtPaswoord;
+        private System.Windows.Forms.TextBox txtPaswoordherhaling;
         private System.Windows.Forms.TextBox txtPostcode;
         private System.Windows.Forms.TextBox txtGemeente;
         private System.Windows.Forms.TextBox txtAdres;

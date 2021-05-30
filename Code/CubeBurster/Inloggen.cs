@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CubeBurster
 {
-    public partial class Inloggen : Form
+    public partial class frmInloggen : Form
     {
-        public Inloggen()
+        public frmInloggen()
         {
             InitializeComponent();
         }

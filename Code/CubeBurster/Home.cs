@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CubeBurster
 {
-    public partial class Home : Form
+    public partial class frmHome : Form
     {
-        public Home()
+        public frmHome()
         {
             InitializeComponent();
         }
@@ -44,22 +44,6 @@ namespace CubeBurster
             */
         }
 
-        private void AccountToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void AanmeldenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmRegistreren registratie = new frmRegistreren();
-            registratie.Show();
-        }
-
-        private void inloggenToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            
-        }
-
         private void adminToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Enkel zichtbaar voor admins!!!
@@ -77,7 +61,14 @@ namespace CubeBurster
 
         private void registrerenToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmRegistreren registratie = new frmRegistreren();
+            registratie.Show();
+        }
 
+        private void InloggenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInloggen inloggen = new frmInloggen();
+            inloggen.Show();
         }
     }
 }
