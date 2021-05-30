@@ -56,3 +56,18 @@ C:\Users\gooss\Desktop\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.exe
 C:\Users\gooss\Desktop\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.pdb
 C:\Users\gooss\Desktop\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmHome.resources
 C:\Users\gooss\Desktop\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmInloggen.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.exe.config
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.exe
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.pdb
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csprojAssemblyReference.cache
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmBeheer.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmFilms.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmHome.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmInloggen.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmLijsten.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmRegistreren.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.Properties.Resources.resources
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.GenerateResource.cache
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.exe
+D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.pdb

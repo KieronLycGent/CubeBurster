@@ -254,6 +254,7 @@
             this.Controls.Add(this.lblNaam);
             this.Name = "frmRegistreren";
             this.Text = "Registreren";
+            this.Load += new System.EventHandler(this.frmRegistreren_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

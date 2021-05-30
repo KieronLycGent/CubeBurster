@@ -18,6 +18,20 @@ namespace CubeBurster
             InitializeComponent();
         }
 
+        static int acountid;
+
+        public static int getacountid()
+        {
+            return acountid;
+        }
+
+        public static void setacountid(int newid)
+        {
+            acountid = newid;
+        }
+
+
+
         private void BtnInhoudDatagrid_Click(object sender, EventArgs e)
         {
             /*
@@ -56,7 +70,8 @@ namespace CubeBurster
 
         private void filmsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmRegistreren registratie = new frmRegistreren();
+            registratie.Show();
         }
 
         private void registrerenToolStripMenuItem_Click(object sender, EventArgs e)

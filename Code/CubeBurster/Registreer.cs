@@ -172,5 +172,10 @@ namespace CubeBurster
                 verbinding.Close();
             }
         }
+
+        private void frmRegistreren_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

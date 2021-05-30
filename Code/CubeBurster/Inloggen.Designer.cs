@@ -46,6 +46,7 @@ namespace CubeBurster
             this.btnClose.TabIndex = 44;
             this.btnClose.Text = "Sluit";
             this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // lblInloggen
             // 
@@ -65,6 +66,7 @@ namespace CubeBurster
             this.btnLogin.TabIndex = 42;
             this.btnLogin.Text = "Log in";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtPaswoord
             // 
@@ -112,6 +114,7 @@ namespace CubeBurster
             this.Controls.Add(this.lblEmail);
             this.Name = "frmInloggen";
             this.Text = "Inloggen";
+            this.Activated += new System.EventHandler(this.frmInloggen_Activated);
             this.ResumeLayout(false);
             this.PerformLayout();
 
