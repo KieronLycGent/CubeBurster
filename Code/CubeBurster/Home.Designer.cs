@@ -40,6 +40,7 @@
             this.boetesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.uitgeleendToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lblnaam = new System.Windows.Forms.Label();
+            this.lbltype = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,7 @@
             this.uitgeleendToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1334, 38);
+            this.menuStrip1.Size = new System.Drawing.Size(1067, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -65,7 +66,7 @@
             this.registrerenToolStripMenuItem,
             this.uitloggenToolStripMenuItem});
             this.accountToolStripMenuItem.Name = "accountToolStripMenuItem";
-            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 34);
+            this.accountToolStripMenuItem.Size = new System.Drawing.Size(77, 24);
             this.accountToolStripMenuItem.Text = "Account";
             // 
             // inloggenToolStripMenuItem
@@ -94,7 +95,7 @@
             this.adminToolStripMenuItem,
             this.werknemerToolStripMenuItem});
             this.beheerToolStripMenuItem.Name = "beheerToolStripMenuItem";
-            this.beheerToolStripMenuItem.Size = new System.Drawing.Size(69, 34);
+            this.beheerToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.beheerToolStripMenuItem.Text = "Beheer";
             // 
             // adminToolStripMenuItem
@@ -114,20 +115,20 @@
             // filmsToolStripMenuItem
             // 
             this.filmsToolStripMenuItem.Name = "filmsToolStripMenuItem";
-            this.filmsToolStripMenuItem.Size = new System.Drawing.Size(57, 34);
+            this.filmsToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
             this.filmsToolStripMenuItem.Text = "Films";
             this.filmsToolStripMenuItem.Click += new System.EventHandler(this.filmsToolStripMenuItem_Click);
             // 
             // boetesToolStripMenuItem
             // 
             this.boetesToolStripMenuItem.Name = "boetesToolStripMenuItem";
-            this.boetesToolStripMenuItem.Size = new System.Drawing.Size(68, 34);
+            this.boetesToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
             this.boetesToolStripMenuItem.Text = "Boetes";
             // 
             // uitgeleendToolStripMenuItem
             // 
             this.uitgeleendToolStripMenuItem.Name = "uitgeleendToolStripMenuItem";
-            this.uitgeleendToolStripMenuItem.Size = new System.Drawing.Size(96, 34);
+            this.uitgeleendToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
             this.uitgeleendToolStripMenuItem.Text = "Uitgeleend";
             // 
             // lblnaam
@@ -135,20 +136,32 @@
             this.lblnaam.AutoSize = true;
             this.lblnaam.Location = new System.Drawing.Point(34, 52);
             this.lblnaam.Name = "lblnaam";
-            this.lblnaam.Size = new System.Drawing.Size(78, 21);
+            this.lblnaam.Size = new System.Drawing.Size(62, 17);
             this.lblnaam.TabIndex = 1;
             this.lblnaam.Text = "Welkom ";
+            // 
+            // lbltype
+            // 
+            this.lbltype.AutoSize = true;
+            this.lbltype.Location = new System.Drawing.Point(34, 69);
+            this.lbltype.Name = "lbltype";
+            this.lbltype.Size = new System.Drawing.Size(62, 17);
+            this.lbltype.TabIndex = 2;
+            this.lbltype.Text = "Welkom ";
             // 
             // frmHome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.lbltype);
             this.Controls.Add(this.lblnaam);
             this.Controls.Add(this.menuStrip1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHome";
             this.Text = "Home";
+            this.Activated += new System.EventHandler(this.frmHome_Activated);
+            this.Load += new System.EventHandler(this.frmHome_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -170,6 +183,7 @@
         private System.Windows.Forms.ToolStripMenuItem boetesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem uitgeleendToolStripMenuItem;
         private System.Windows.Forms.Label lblnaam;
+        private System.Windows.Forms.Label lbltype;
     }
 }
 

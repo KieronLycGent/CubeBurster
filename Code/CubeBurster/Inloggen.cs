@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Data.OleDb;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using System.Runtime.InteropServices;
 
 namespace CubeBurster
 {
@@ -125,32 +126,34 @@ namespace CubeBurster
         {
             InitializeComponent();
         }
-
+        bool login=false;
         private void btnLogin_Click(object sender, EventArgs e)
         {
             //var hash = SecurePasswordHasher.Hash(txtPaswoord.Text);
+            OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source= ../../cubeburster.accdb");
 
 
-            if (string.IsNullOrEmpty(txtEmail.Text)|| string.IsNullOrEmpty(txtPaswoord.Text))
+            if (string.IsNullOrEmpty(txtEmail.Text) || string.IsNullOrEmpty(txtPaswoord.Text))
             {
-                MessageBox.Show("Gelieve een Email in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Gelieve alles in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtEmail.Focus();
                 return;
             }
             try
             {
-                OleDbConnection con = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source= ../../cubeburster.accdb");
+               
                 con.Open();
-                OleDbCommand cmd = new OleDbCommand("select accountID from tblaccounts where email='" + txtEmail.Text + "' and paswoord='" + txtPaswoord.Text + "'", con);
+                OleDbCommand cmd = new OleDbCommand("select accountID, accountType from tblaccounts where email='" + txtEmail.Text + "' and paswoord='" + txtPaswoord.Text + "'", con);
                 OleDbDataReader dr = cmd.ExecuteReader();
                 if (dr.Read() == true)
                 {
                     MessageBox.Show("Login Successful");
-                    acountid = 29;
+                    login = true;
+                    acountid = (int)dr.GetValue(0);
+                    acounttype = (int)dr.GetValue(1);
                     frmHome.setacountid(acountid);
-
-                    this.Hide();
-                    //this.Close();
+                    frmHome.setacounttype(acounttype);
+                    
                 }
                 else
                 {
@@ -161,6 +164,32 @@ namespace CubeBurster
             {
                 MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            finally
+            {
+                con.Close();
+            }
+
+            if (login)
+            {
+                this.Close();
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
 
         private void btnClose_Click(object sender, EventArgs e)

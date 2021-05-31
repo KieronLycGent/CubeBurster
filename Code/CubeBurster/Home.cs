@@ -19,6 +19,7 @@ namespace CubeBurster
         }
 
         static int acountid;
+        static int acounttype;
 
         public static int getacountid()
         {
@@ -30,7 +31,15 @@ namespace CubeBurster
             acountid = newid;
         }
 
+        public static int getacounttype()
+        {
+            return acounttype;
+        }
 
+        public static void setacounttype(int newtype)
+        {
+            acounttype = newtype;
+        }
 
         private void BtnInhoudDatagrid_Click(object sender, EventArgs e)
         {
@@ -84,6 +93,17 @@ namespace CubeBurster
         {
             frmInloggen inloggen = new frmInloggen();
             inloggen.Show();
+        }
+
+        private void frmHome_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void frmHome_Activated(object sender, EventArgs e)
+        {
+            lblnaam.Text = getacountid().ToString();
+            lbltype.Text= getacounttype().ToString();
         }
     }
 }

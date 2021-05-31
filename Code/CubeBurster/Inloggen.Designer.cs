@@ -72,6 +72,7 @@ namespace CubeBurster
             // 
             this.txtPaswoord.Location = new System.Drawing.Point(178, 76);
             this.txtPaswoord.Name = "txtPaswoord";
+            this.txtPaswoord.PasswordChar = '*';
             this.txtPaswoord.Size = new System.Drawing.Size(200, 22);
             this.txtPaswoord.TabIndex = 37;
             // 
