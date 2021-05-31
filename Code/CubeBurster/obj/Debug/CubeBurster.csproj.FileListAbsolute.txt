@@ -71,3 +71,18 @@ D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.exe
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.pdb
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.exe.config
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.exe
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.pdb
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.csprojAssemblyReference.cache
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmBeheer.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmFilms.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmHome.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmInloggen.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmLijsten.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.frmRegistreren.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.Properties.Resources.resources
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.GenerateResource.cache
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.exe
+C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.pdb

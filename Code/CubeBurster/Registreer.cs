@@ -136,6 +136,56 @@ namespace CubeBurster
                 OleDbCommand opdracht = new OleDbCommand("SELECT PostID from tblpost");
             }
             */
+            if (string.IsNullOrEmpty(txtNaam.Text))
+            {
+                MessageBox.Show("Gelieve een naam in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtNaam.Focus();
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtVoornaam.Text))
+            {
+                MessageBox.Show("Gelieve een voornaam in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtVoornaam.Focus();
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtEmail.Text)|| !this.txtEmail.Text.Contains('@') || !this.txtEmail.Text.Contains('.'))
+            {
+                MessageBox.Show("Gelieve een geldig Email in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtEmail.Focus();
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtPaswoord.Text)|| string.IsNullOrEmpty(txtPaswoordherhaling.Text))
+            {
+                MessageBox.Show("Gelieve een paswoord in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPaswoord.Focus();
+                return;
+            }
+            else if (txtPaswoord.Text!= txtPaswoordherhaling.Text)
+            {
+                MessageBox.Show("Gelieve een 2 keer het zelfde paswoord in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPaswoord.Focus();
+                txtPaswoord.Text = "";
+                txtPaswoordherhaling.Text = "";
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtPostcode.Text) )
+            {
+                MessageBox.Show("Gelieve een geldig paswoord in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtPaswoord.Focus();
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtGemeente.Text))
+            {
+                MessageBox.Show("Gelieve een gemeente in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtGemeente.Focus();
+                return;
+            }
+            else if (string.IsNullOrEmpty(txtAdres.Text))
+            {
+                MessageBox.Show("Gelieve een adres in te vullen.", "Message", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                txtAdres.Focus();
+                return;
+            }
             try
             {
                 var hash = SecurePasswordHasher.Hash(txtPaswoord.Text);
