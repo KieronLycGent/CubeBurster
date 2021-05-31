@@ -154,7 +154,7 @@ namespace CubeBurster
                 }
                 else
                 {
-                    MessageBox.Show("Invalid Credentials, Please Re-Enter");
+                    MessageBox.Show("Ongeldige inloggegevens, Gelieve opnieuw in te voeren");
                 }
             }
             catch (Exception ex)
