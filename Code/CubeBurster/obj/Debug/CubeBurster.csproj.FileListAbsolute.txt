@@ -71,6 +71,7 @@ D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.exe
 D:\school 6ib\C#\cubeburster\CubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.pdb
+<<<<<<< HEAD
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.exe.config
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.exe
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\bin\Debug\CubeBurster.pdb
@@ -86,3 +87,20 @@ C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBu
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.exe
 C:\Users\seppd\OneDrive\Bureaublad\cubeburster\Code\CubeBurster\obj\Debug\CubeBurster.pdb
+=======
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.exe.config
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.exe
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\bin\Debug\CubeBurster.pdb
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.AssemblyReference.cache
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmBeheer.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmFilms.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmHome.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmInloggen.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmLijsten.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.frmRegistreren.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.Properties.Resources.resources
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.GenerateResource.cache
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.csproj.CoreCompileInputs.cache
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.exe
+C:\Users\boere\Documents\School\CSharp\cubeBurster\Code\CubeBurster\obj\Debug\CubeBurster.pdb
+>>>>>>> 1fceb1416211a69d6a81c8de45693b2c385bdfce

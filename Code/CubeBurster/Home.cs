@@ -79,8 +79,8 @@ namespace CubeBurster
 
         private void filmsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmRegistreren registratie = new frmRegistreren();
-            registratie.Show();
+            frmFilms films = new frmFilms();
+            films.Show();
         }
 
         private void registrerenToolStripMenuItem_Click(object sender, EventArgs e)
