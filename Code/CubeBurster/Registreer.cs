@@ -188,7 +188,7 @@ namespace CubeBurster
             }
             try
             {
-                var hash = SecurePasswordHasher.Hash(txtPaswoord.Text);
+                //var hash = SecurePasswordHasher.Hash(txtPaswoord.Text);
                 verbinding.Open();
                 MessageBox.Show("hier");
                 OleDbCommand opdracht = new OleDbCommand("INSERT INTO tblaccounts (naam, voornaam, geb_dat, email, paswoord, postID, adres) VALUES(?,?,?,?,?,?,?)", verbinding);
@@ -201,7 +201,7 @@ namespace CubeBurster
                 opdracht.Parameters.AddWithValue("", txtVoornaam.Text);
                 opdracht.Parameters.AddWithValue("", dtpGebdat.Text);
                 opdracht.Parameters.AddWithValue("", txtEmail.Text);
-                opdracht.Parameters.AddWithValue("", hash);
+                opdracht.Parameters.AddWithValue("", txtPaswoord.Text);
                 opdracht.Parameters.AddWithValue("", txtPostcode.Text);
                 opdracht.Parameters.AddWithValue("", txtAdres.Text);
 
